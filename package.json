@@ -1,6 +1,6 @@
 {
   "name": "react-actioncable-provider",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "ActionCable Provider for React",
   "main": "lib/index.js",
   "scripts": {
@@ -11,10 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/cpunion/react-actioncable-provider.git"
   },
-  "keywords": [
-    "ActionCable",
-    "react"
-  ],
+  "keywords": ["ActionCable", "react"],
   "author": "Li Jie <cpunion@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -39,15 +36,9 @@
   },
   "jest": {
     "verbose": true,
-    "collectCoverageFrom": [
-      "lib/**/*.{js,jsx}"
-    ],
+    "collectCoverageFrom": ["lib/**/*.{js,jsx}"],
     "coverageDirectory": "coverage",
-    "setupFiles": [
-      "<rootDir>/config/setup.js"
-    ],
-    "testPathIgnorePatterns": [
-      "<rootDir>/(build|docs|node_modules)/"
-    ]
+    "setupFiles": ["<rootDir>/config/setup.js"],
+    "testPathIgnorePatterns": ["<rootDir>/(build|docs|node_modules)/"]
   }
 }
